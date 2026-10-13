@@ -1,0 +1,49 @@
+
+UserBrowser [icon: EC2Icon]
+UserMobile [icon: EC2Icon]
+
+PublicAPI [icon: APIGateway]
+SecurityFunction [icon: Lambda]
+
+CognitoUserPool [icon: APIGateway]
+IdentityPool [icon: Lambda]
+UserDirectory [icon: DynamoDB]
+
+WebsiteApp [icon: AppRunner]
+MobileApp [icon: AppSync]
+
+VPC {
+  PublicSubnet {
+    PublicAPI [icon: APIGateway]
+  }
+  PrivateSubnet {
+    APIService [icon: Lambda]
+    TenantManagementDB [icon: Aurora]
+    SessionStore [icon: ElastiCache]
+  }
+}
+
+UserDataBucket [icon: SimpleStorageService]
+LoggingService [icon: KinesisDataStreams]
+
+VPC > MainNet
+
+UserBrowser > PublicAPI
+UserMobile > PublicAPI
+
+PublicAPI > SecurityFunction
+
+SecurityFunction > WebsiteApp
+SecurityFunction > MobileApp
+
+WebsiteApp > CognitoUserPool
+MobileApp > CognitoUserPool
+
+CognitoUserPool > IdentityPool
+
+IdentityPool > APIService
+
+APIService > TenantManagementDB
+APIService > SessionStore
+APIService > UserDataBucket
+APIService > LoggingService

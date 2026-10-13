@@ -1,0 +1,37 @@
+{
+  "type": "excalidraw/clipboard",
+  "elements": [
+    {
+      "id": "ldT2ICBy-WjbtvUL0Zjo0",
+      "type": "rectangle",
+      "x": 12889.566847605687,
+      "y": 4856.2247279505955,
+      "width": 2360,
+      "height": 1399.9996948242188,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "cross-hatch",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5p",
+      "roundness": { "type": 3 },
+      "seed": 2093191377,
+      "version": 19,
+      "versionNonce": 1458889183,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1751546698589,
+      "link": null,
+      "locked": false
+    }
+  ],
+  "files": {}
+}
+
+
+{"type":"excalidraw/clipboard","elements":[{"id":"ew4Ops2s08J-VOcfSSPgx","type":"arrow","x":13809.562956614478,"y":-494.43799940536155,"width":12616.000518798828,"height":5776.000137329102,"angle":0,"strokeColor":"#1971c2","backgroundColor":"transparent","fillStyle":"cross-hatch","strokeWidth":4,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"index":"b62","roundness":{"type":2},"seed":1503653631,"version":900,"versionNonce":1587405617,"isDeleted":false,"boundElements":null,"updated":1751549553002,"link":null,"locked":false,"points":[[0,0],[1088.0001831054688,335.999755859375],[-1007.9998779296875,3335.9996032714844],[2263.9999389648438,4175.999908447266],[5631.999816894531,975.999755859375],[-160,-64.000244140625],[5928.000183105469,5503.999786376953],[9216.000671386719,1663.9997863769531],[-1984.0000915527344,2815.9996032714844],[7743.999938964844,2375.9996032714844],[5096.000061035156,727.9997253417969],[8256.000671386719,3863.999786376953],[2408.0001831054688,4471.999664306641],[3943.9999389648438,2311.9996643066406],[6592.000427246094,5391.999664306641],[10632.000427246094,2695.9996032714844],[3063.9999389648438,-272.00035095214844],[2728.0001831054688,-224.0001678466797]],"lastCommittedPoint":[2728.0001831054688,-224.0001678466797],"startBinding":{"elementId":"h1R2yFcXzHQmryMDbSwRn","focus":-0.6826624477043671,"gap":4.664099485233142},"endBinding":null,"startArrowhead":null,"endArrowhead":"arrow","elbowed":false}],"files":{}}
